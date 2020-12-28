@@ -4,9 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 //Modulos
 import { PagesRoutingModule } from './pages/pages.routing';
 import { AuthRoutingModule } from './auth/auth.routing';
+import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 //Componentes
-import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 //Configurar las rutas de mi aplicacion
 /*Cada uno de los elementos de mi routes(elementos dentro de la llave son objetos en el cual va tener el path,
